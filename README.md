@@ -1,4 +1,4 @@
-# README - Playwright Automation Project with TypeScript and Allure
+### Playwright Automation Project with TypeScript and Allure
 
 ## English
 
@@ -75,7 +75,7 @@ npx playwright test --ui
 ### Generating Allure Reports
 Run tests and generate a report:
 ```bash
-npm run test-and-report
+npm run test
 ```
 Manually generate a report:
 ```bash
@@ -85,6 +85,16 @@ Open the report:
 ```bash
 npx allure open allure-report
 ```
+
+### Plugins to Install
+For a better development experience, install the following plugins:
+1. **Playwright for Visual Studio Code**  
+   This plugin provides Playwright snippets and other helpful features for easier test development.
+   - Install from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
+
+2. **Playwright Test Snippets**  
+   This plugin provides common snippets for Playwright test development.
+   - Install from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=mskelton.playwright-test-snippets)
 
 ---
 
@@ -173,3 +183,13 @@ Abrir reporte:
 ```bash
 npx allure open allure-report
 ```
+
+### Plugins para Instalar
+Para una mejor experiencia de desarrollo, instala los siguientes plugins:
+1. **Playwright para Visual Studio Code**  
+   Este plugin proporciona fragmentos de código y otras funciones útiles para el desarrollo de pruebas.
+   - Instalar desde el [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
+
+2. **Playwright Test Snippets**  
+   Este plugin proporciona fragmentos comunes para el desarrollo de pruebas con Playwright.
+   - Instalar desde el [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=mskelton.playwright-test-snippets)
