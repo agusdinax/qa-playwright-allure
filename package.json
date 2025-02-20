@@ -1,0 +1,19 @@
+{
+  "name": "qa-playwright-allure",
+  "version": "1.0.0",
+  "description": "Proyecto de pruebas realizadas con playwright para la automatización de pruebas de UI y de API",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4",
+    "allure-commandline": "^2.32.2",
+    "allure-playwright": "^3.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
