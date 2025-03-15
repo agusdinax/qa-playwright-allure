@@ -10,8 +10,6 @@ function readJsonData(filePath: string) {
   return JSON.parse(rawData);
 }
 
-
-
 test.describe('UI Tests for Parabank Application', () => {
   let parabankPage: ParabankPage;
 
