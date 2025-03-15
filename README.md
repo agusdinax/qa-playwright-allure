@@ -12,14 +12,14 @@
   </div>
 </div>
 
-# Playwright Automation Project with TypeScript and Allure  
+# 🎭 Playwright Automation Project with TypeScript and Allure  
 
 ## 🌍 Language | Idioma  
-**[🇬🇧 English](#english) | [🇪🇸 Español](#español)**  
+**[🇬🇧 English](#-english) | [🇪🇸 Español](#-español)**  
 
 ---
 
-## 📌 English  
+## 🇬🇧 English  
 
 ### 📖 Project Overview  
 This project implements automated UI and API tests using **Playwright** with **TypeScript** as the primary language and **Allure** for generating detailed reports. 
