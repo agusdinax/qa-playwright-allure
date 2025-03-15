@@ -9,6 +9,7 @@
     <a>
       <img src="https://img.shields.io/badge/Allure-green?style=for-the-badge&logo=Allure&logoColor=white" alt="Allure Badge"/>
     </a>
+  </div>
 </div>
 
 ### Playwright Automation Project with TypeScript and Allure
