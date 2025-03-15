@@ -24,14 +24,17 @@ export class SauceDemoPage {
   async navigate() {
     await this.page.goto(this.url);
   }
+  
   async login(username: string, password: string) {
     await this.usernameInput().fill(username);
     await this.passwordInput().fill(password);
     await this.loginButton().click();
   }
+
   async verifySuccessfulLogin() {
     await expect(this.title()).toHaveText('Products');
   }
+
   async verifyLoginFailed() {
     await expect(this.errorMessage()).toBeVisible();
   }
@@ -40,15 +43,19 @@ export class SauceDemoPage {
     const productLocator = this.page.locator(`text=${productName}`).locator('xpath=ancestor::div[contains(@class, "inventory_item")]');
     await productLocator.locator('button').click();
   }
+
   async openCart() {
     await this.cartLink().click();
   }
+
   async verifyProductInCart(productName: string) {
     await expect(this.page.locator('.cart_item .inventory_item_name')).toHaveText(productName);
   }
+
   async proceedToCheckout() {
     await this.checkoutButton().click();
   }
+
   async completePurchase(firstName: string, lastName: string, postalCode: string) {
     await this.firstNameInput().fill(firstName);
     await this.lastNameInput().fill(lastName);
