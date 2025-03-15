@@ -1,0 +1,15 @@
+[
+    {
+      "username": "john",
+      "password": "demo",
+      "amount": 100,
+      "accountTo": "9876543210"
+    },
+    {
+      "username": "alice",
+      "password": "1234",
+      "amount": 200,
+      "accountTo": "9876543211"
+    }
+  ]
+  

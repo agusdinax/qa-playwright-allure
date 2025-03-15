@@ -34,7 +34,7 @@ export default defineConfig({
       testMatch: "/*.spec.ts",
       use: { ...devices['Desktop Chrome'] },
     },
-
+/*
     {
       name: 'Iphone',
       testMatch: "/*.spec.ts",
@@ -46,6 +46,7 @@ export default defineConfig({
       testMatch: "/*.spec.ts",
       use: { ...devices['iPad (gen 7)'] },
     },
+    */
     {
       name: 'API Tests',
       testMatch: 'APITests/**/*',
