@@ -1,3 +1,16 @@
+<div id="header" align="center">
+  <div id="badges">
+    <a>
+     <img src="https://img.shields.io/badge/Playwright-blue?style=for-the-badge&logo=Playwright&logoColor=white" alt="Playwright Badge"/>
+    </a>
+    <a>
+      <img src="https://img.shields.io/badge/TypeScript-red?style=for-the-badge&logo=TypeScript&logoColor=white" alt="TypeScript Badge"/>
+    </a>
+    <a>
+      <img src="https://img.shields.io/badge/Allure-green?style=for-the-badge&logo=Allure&logoColor=white" alt="Allure Badge"/>
+    </a>
+</div>
+
 ### Playwright Automation Project with TypeScript and Allure
 
 ## English
